@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <p>火车票</p>
+            <p>飞机票</p>
+            <p>酒店</p>
+            <p>热点</p>
+        </header>
+        <section>
+            <p>
+                <input type="text" placeholder="出发城市" value="           北京">
+                <span>X</span>
+                <input type="text" placeholder="目的城市" value="        上海">
+            </p>
+
+            <h4>火车票查询</h4>
+        </section>
+        <footer>
+            <p>11</p>
+            <p>222</p>
+        </footer>
+    </div>
+    <script>
+    
+        var btn = document.querySelector("h4");
+        btn.addEventListener("click",function() {
+            window.location.href = "./msg.html"
+        })
+    </script>
+</body>
+</html>
